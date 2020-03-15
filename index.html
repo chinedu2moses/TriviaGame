@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Trivia Game</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato|Oswald&display=swap" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+
+<h1> TRIVIA GAME by Chinedu Moses</h1>
+<p> Get the answers corrct and win</p>
+
+<form id = "quizz" name = "quizz">
+
+
+<p> What is the capital of RHODE ISLAND? </p>
+<input id = "textbook" type = "text" name ="question1">
+
+<p>What is the capital of Japan?</p>
+<input type = "radio" id = "mc" name ="question2" value = "Tokyo">Tokyo<br>
+<input type = "radio" id = "mc" name ="question2" value = "Toyo">Toyo<br>
+
+<p>What is the capital of Kenya?</p>
+
+<input type = "radio" id = "mc" name ="question3" value = "Nairobi">Nairobi<br>
+<input type = "radio" id = "mc" name ="question3" value = "Naiobi">Naiobi <br>
+
+
+<input id = "button" type="button" value = "I'm finished!" onclick ="check();"> 
+
+
+</form>
+    
+<div id = "after_submit">
+
+<p id = "message"></p>
+<p id = "number_correct"></p>
+<img id = "picture"></img>
+</div>
+
+</body>
+
+</html>
