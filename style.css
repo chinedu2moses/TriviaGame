@@ -57,7 +57,7 @@ input {
 #buttom:hover {
    background: white;
    border: 1px rgb(168, 177, 10);
-   color: black;
+   color: rgb(54, 44, 44);
    cursor: pointer;
 
 }
